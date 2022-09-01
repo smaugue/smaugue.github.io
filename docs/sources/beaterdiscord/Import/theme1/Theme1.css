@@ -1,6 +1,6 @@
-@import url(https://github.com/smaugue/Discord_Themes_Sources/blob/a119b2588f7e11cf81030d9eb4147639fd40040c/Import/SettingsIcons.css);
-@import url(https://github.com/smaugue/Discord_Themes_Sources/blob/a119b2588f7e11cf81030d9eb4147639fd40040c/Import/UsrBgs.css);
-@import url(https://github.com/smaugue/Discord_Themes_Sources/blob/a119b2588f7e11cf81030d9eb4147639fd40040c/Import/BlurpleRecolor.css);
+@import url(https://smaugue.github.io/docs/sources/beaterdiscord/BlurpleRecolor.css);
+@import url(https://smaugue.github.io/docs/sources/beaterdiscord/UsrBgs.css);
+@import url(https://smaugue.github.io/docs/sources/beaterdiscord/BlurpleRecolor.css);
 
 :root {
     --transparencycolor: 0, 0, 0;
