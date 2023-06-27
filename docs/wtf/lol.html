@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        #background-video {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            pointer-events: none;
+        }
+
+        #content {
+            position: fixed;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            height: 200px;
+            background-color: rgba(0, 0, 0, 0);
+            border-radius: 10px;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            color: #ffff;
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+    <video class="media" src="BACKGROUND.mp4" controls=""></video>
+    <div id="content">
+        <h1>click to reveal</h1>
+    </div>
+</body>
+
+</html>
